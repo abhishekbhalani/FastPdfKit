@@ -45,7 +45,7 @@
     
     /** Register as DocumentDelegate to receive tap */
     [pdfViewController addDocumentDelegate:_overlayManager];
-    
+
     /** Set the DocumentViewController to obtain access the the conversion methods */
     [_overlayManager setDocumentViewController:(MFDocumentViewController <FPKOverlayManagerDelegate> *)pdfViewController];
     
