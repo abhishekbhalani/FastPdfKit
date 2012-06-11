@@ -36,7 +36,7 @@
 		013FC43F15867B9F003A0F04 /* FPKShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC42D15867B9E003A0F04 /* FPKShared.framework */; };
 		013FC44015867B9F003A0F04 /* FPKWebPopup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC43015867B9E003A0F04 /* FPKWebPopup.framework */; };
 		013FC44115867B9F003A0F04 /* FPKYouTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC43315867B9E003A0F04 /* FPKYouTube.framework */; };
-		013FC48A15867DD3003A0F04 /* libFPKSynchronizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC48915867DD3003A0F04 /* libFPKSynchronizer.a */; };
+		018765F71586813C00E473E2 /* libFPKSynchronizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 018765F61586813C00E473E2 /* libFPKSynchronizer.a */; };
 		953B995F1510F8CD0056DF66 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953B995E1510F8CD0056DF66 /* CoreAudio.framework */; };
 		953B99611510F8DE0056DF66 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953B99601510F8DE0056DF66 /* AudioToolbox.framework */; };
 		953B99631510F90E0056DF66 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953B99621510F90E0056DF66 /* CFNetwork.framework */; };
@@ -86,7 +86,7 @@
 		013FC42D15867B9E003A0F04 /* FPKShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKShared.framework; sourceTree = "<group>"; };
 		013FC43015867B9E003A0F04 /* FPKWebPopup.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKWebPopup.framework; sourceTree = "<group>"; };
 		013FC43315867B9E003A0F04 /* FPKYouTube.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKYouTube.framework; sourceTree = "<group>"; };
-		013FC48915867DD3003A0F04 /* libFPKSynchronizer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFPKSynchronizer.a; path = ../../../../../../libFPKSynchronizer.a; sourceTree = "<group>"; };
+		018765F61586813C00E473E2 /* libFPKSynchronizer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFPKSynchronizer.a; sourceTree = "<group>"; };
 		953B995E1510F8CD0056DF66 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		953B99601510F8DE0056DF66 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		953B99621510F90E0056DF66 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -128,7 +128,7 @@
 				013FC43F15867B9F003A0F04 /* FPKShared.framework in Frameworks */,
 				013FC44015867B9F003A0F04 /* FPKWebPopup.framework in Frameworks */,
 				013FC44115867B9F003A0F04 /* FPKYouTube.framework in Frameworks */,
-				013FC48A15867DD3003A0F04 /* libFPKSynchronizer.a in Frameworks */,
+				018765F71586813C00E473E2 /* libFPKSynchronizer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +207,7 @@
 		013FC3751586251C003A0F04 /* FPKSynchronizer */ = {
 			isa = PBXGroup;
 			children = (
-				013FC48915867DD3003A0F04 /* libFPKSynchronizer.a */,
+				018765F61586813C00E473E2 /* libFPKSynchronizer.a */,
 				013FC374158624DF003A0F04 /* FPKSynchronizerServer.h */,
 			);
 			name = FPKSynchronizer;
@@ -439,7 +439,7 @@
 		010FFD5B1506631A00631AFF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = 010FFD5E1506631A00631AFF /* Build configuration list for PBXProject "MagTestApp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -572,14 +572,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MagTestApp\"",
-					"\"$(SRCROOT)/Common.embeddedframework/Resources\"",
-					"\"$(SRCROOT)/../FastPdfKitSample/Classes/Extended/Extensions/Common.embeddedframework/Resources\"",
-					"\"$(SRCROOT)/../FPKExtensions/Common/Common.embeddedframework/Resources\"",
-					"\"$(SRCROOT)/../FPKExtensions/FPKGallerySlide\"",
-					"\"$(SRCROOT)/MagTestApp/Extensions/Common.embeddedframework/Resources\"",
-					"\"$(SRCROOT)/Extensions/Common.embeddedframework/Resources\"",
 					"\"$(SRCROOT)/../Extensions/Common.embeddedframework/Resources\"",
-					"\"$(SRCROOT)/../../../../..\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -614,14 +607,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MagTestApp\"",
-					"\"$(SRCROOT)/Common.embeddedframework/Resources\"",
-					"\"$(SRCROOT)/../FastPdfKitSample/Classes/Extended/Extensions/Common.embeddedframework/Resources\"",
-					"\"$(SRCROOT)/../FPKExtensions/Common/Common.embeddedframework/Resources\"",
-					"\"$(SRCROOT)/../FPKExtensions/FPKGallerySlide\"",
-					"\"$(SRCROOT)/MagTestApp/Extensions/Common.embeddedframework/Resources\"",
-					"\"$(SRCROOT)/Extensions/Common.embeddedframework/Resources\"",
 					"\"$(SRCROOT)/../Extensions/Common.embeddedframework/Resources\"",
-					"\"$(SRCROOT)/../../../../..\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
