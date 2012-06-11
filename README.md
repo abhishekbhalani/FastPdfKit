@@ -301,6 +301,10 @@ This guide is also available as [screencast number 4](http://fastpdfkit.com/tuto
 
 ## Changelog
 
+### Update 3.5 (June 11, 2012)
+* Added separate, smaller projects referencing main code sources
+* Added MagTestApp sample project and OSX client
+
 ### Update 3.4.1 (June 2, 2012)
 
 * Removed some warnings;

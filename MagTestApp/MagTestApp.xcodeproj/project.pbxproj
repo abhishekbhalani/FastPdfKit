@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01036D4D1508BD9F002E81B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01036D4C1508BD9F002E81B4 /* Security.framework */; };
+		01036D511508BDD4002E81B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01036D501508BDD4002E81B4 /* MapKit.framework */; };
+		01036D531508BDE7002E81B4 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01036D521508BDE7002E81B4 /* libxml2.dylib */; };
+		01036D561508BDFC002E81B4 /* OverlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01036D551508BDFC002E81B4 /* OverlayManager.m */; };
+		01036D6E1508CCD0002E81B4 /* MagReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01036D6D1508CCD0002E81B4 /* MagReaderViewController.m */; };
+		010FFD691506631A00631AFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010FFD681506631A00631AFF /* UIKit.framework */; };
+		010FFD6B1506631A00631AFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010FFD6A1506631A00631AFF /* Foundation.framework */; };
+		010FFD6D1506631A00631AFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010FFD6C1506631A00631AFF /* CoreGraphics.framework */; };
+		010FFD731506631A00631AFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 010FFD711506631A00631AFF /* InfoPlist.strings */; };
+		010FFD751506631A00631AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 010FFD741506631A00631AFF /* main.m */; };
+		010FFD791506631A00631AFF /* MagAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 010FFD781506631A00631AFF /* MagAppDelegate.m */; };
+		0138AC261507B7C300DCCF52 /* MagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0138AC251507B7C300DCCF52 /* MagViewController.m */; };
+		0138AC2C1507B8AE00DCCF52 /* MagViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0138AC2B1507B8AE00DCCF52 /* MagViewController.xib */; };
+		013FC33D15862341003A0F04 /* FastPdfKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC33915862341003A0F04 /* FastPdfKit.framework */; };
+		013FC33E15862341003A0F04 /* FPKReaderBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 013FC33B15862341003A0F04 /* FPKReaderBundle.bundle */; };
+		013FC33F15862341003A0F04 /* Snippets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 013FC33C15862341003A0F04 /* Snippets.txt */; };
+		013FC36115862361003A0F04 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC34115862360003A0F04 /* Common.framework */; };
+		013FC36215862361003A0F04 /* libPayPalMPL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC34315862360003A0F04 /* libPayPalMPL.a */; };
+		013FC36315862361003A0F04 /* FPKConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC34515862360003A0F04 /* FPKConfig.framework */; };
+		013FC36415862361003A0F04 /* FPKGalleryFade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC34815862360003A0F04 /* FPKGalleryFade.framework */; };
+		013FC36515862361003A0F04 /* FPKGallerySlide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC34A15862360003A0F04 /* FPKGallerySlide.framework */; };
+		013FC36615862361003A0F04 /* FPKGalleryTap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC34D15862360003A0F04 /* FPKGalleryTap.framework */; };
+		013FC36715862361003A0F04 /* FPKMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC35015862360003A0F04 /* FPKMap.framework */; };
+		013FC36815862361003A0F04 /* FPKMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC35215862360003A0F04 /* FPKMessage.framework */; };
+		013FC36915862361003A0F04 /* fpkmessage-info.png in Resources */ = {isa = PBXBuildFile; fileRef = 013FC35415862360003A0F04 /* fpkmessage-info.png */; };
+		013FC36A15862361003A0F04 /* FPKPayPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC35615862360003A0F04 /* FPKPayPal.framework */; };
+		013FC36B15862361003A0F04 /* FPKShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC35915862360003A0F04 /* FPKShared.framework */; };
+		013FC36C15862361003A0F04 /* FPKWebPopup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC35C15862360003A0F04 /* FPKWebPopup.framework */; };
+		013FC36D15862361003A0F04 /* FPKYouTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC35F15862360003A0F04 /* FPKYouTube.framework */; };
+		013FC373158624C8003A0F04 /* libFPKSynchronizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC372158624C8003A0F04 /* libFPKSynchronizer.a */; };
+		953B995F1510F8CD0056DF66 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953B995E1510F8CD0056DF66 /* CoreAudio.framework */; };
+		953B99611510F8DE0056DF66 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953B99601510F8DE0056DF66 /* AudioToolbox.framework */; };
+		953B99631510F90E0056DF66 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953B99621510F90E0056DF66 /* CFNetwork.framework */; };
+		953B99651510F91C0056DF66 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953B99641510F91C0056DF66 /* CoreText.framework */; };
+		953B99671510F9320056DF66 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953B99661510F9320056DF66 /* MediaPlayer.framework */; };
+		953B99681510F94F0056DF66 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01036D4E1508BDAC002E81B4 /* QuartzCore.framework */; };
+		953B996A1510F9600056DF66 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953B99691510F9600056DF66 /* AVFoundation.framework */; };
+		95B9C5571510FC6000411AF6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B9C5561510FC6000411AF6 /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01036D4C1508BD9F002E81B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		01036D4E1508BDAC002E81B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		01036D501508BDD4002E81B4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		01036D521508BDE7002E81B4 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		01036D541508BDFC002E81B4 /* OverlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayManager.h; sourceTree = "<group>"; };
+		01036D551508BDFC002E81B4 /* OverlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayManager.m; sourceTree = "<group>"; };
+		01036D6C1508CCD0002E81B4 /* MagReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagReaderViewController.h; sourceTree = "<group>"; };
+		01036D6D1508CCD0002E81B4 /* MagReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagReaderViewController.m; sourceTree = "<group>"; };
+		010FFD641506631A00631AFF /* MagTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		010FFD681506631A00631AFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		010FFD6A1506631A00631AFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		010FFD6C1506631A00631AFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		010FFD701506631A00631AFF /* MagTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagTestApp-Info.plist"; sourceTree = "<group>"; };
+		010FFD721506631A00631AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		010FFD741506631A00631AFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		010FFD761506631A00631AFF /* MagTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		010FFD771506631A00631AFF /* MagAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagAppDelegate.h; sourceTree = "<group>"; };
+		010FFD781506631A00631AFF /* MagAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagAppDelegate.m; sourceTree = "<group>"; };
+		0138AC241507B7C300DCCF52 /* MagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagViewController.h; sourceTree = "<group>"; };
+		0138AC251507B7C300DCCF52 /* MagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagViewController.m; sourceTree = "<group>"; };
+		0138AC2B1507B8AE00DCCF52 /* MagViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MagViewController.xib; sourceTree = "<group>"; };
+		013FC33915862341003A0F04 /* FastPdfKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FastPdfKit.framework; sourceTree = "<group>"; };
+		013FC33B15862341003A0F04 /* FPKReaderBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FPKReaderBundle.bundle; sourceTree = "<group>"; };
+		013FC33C15862341003A0F04 /* Snippets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snippets.txt; sourceTree = "<group>"; };
+		013FC34115862360003A0F04 /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Common.framework; sourceTree = "<group>"; };
+		013FC34315862360003A0F04 /* libPayPalMPL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMPL.a; sourceTree = "<group>"; };
+		013FC34515862360003A0F04 /* FPKConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKConfig.framework; sourceTree = "<group>"; };
+		013FC34815862360003A0F04 /* FPKGalleryFade.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKGalleryFade.framework; sourceTree = "<group>"; };
+		013FC34A15862360003A0F04 /* FPKGallerySlide.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKGallerySlide.framework; sourceTree = "<group>"; };
+		013FC34D15862360003A0F04 /* FPKGalleryTap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKGalleryTap.framework; sourceTree = "<group>"; };
+		013FC35015862360003A0F04 /* FPKMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKMap.framework; sourceTree = "<group>"; };
+		013FC35215862360003A0F04 /* FPKMessage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKMessage.framework; sourceTree = "<group>"; };
+		013FC35415862360003A0F04 /* fpkmessage-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fpkmessage-info.png"; sourceTree = "<group>"; };
+		013FC35615862360003A0F04 /* FPKPayPal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKPayPal.framework; sourceTree = "<group>"; };
+		013FC35915862360003A0F04 /* FPKShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKShared.framework; sourceTree = "<group>"; };
+		013FC35C15862360003A0F04 /* FPKWebPopup.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKWebPopup.framework; sourceTree = "<group>"; };
+		013FC35F15862360003A0F04 /* FPKYouTube.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKYouTube.framework; sourceTree = "<group>"; };
+		013FC372158624C8003A0F04 /* libFPKSynchronizer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFPKSynchronizer.a; sourceTree = "<group>"; };
+		013FC374158624DF003A0F04 /* FPKSynchronizerServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPKSynchronizerServer.h; sourceTree = "<group>"; };
+		953B995E1510F8CD0056DF66 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		953B99601510F8DE0056DF66 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		953B99621510F90E0056DF66 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		953B99641510F91C0056DF66 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		953B99661510F9320056DF66 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		953B99691510F9600056DF66 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		95B9C5561510FC6000411AF6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		010FFD611506631A00631AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01036D4D1508BD9F002E81B4 /* Security.framework in Frameworks */,
+				95B9C5571510FC6000411AF6 /* CoreFoundation.framework in Frameworks */,
+				953B996A1510F9600056DF66 /* AVFoundation.framework in Frameworks */,
+				953B99681510F94F0056DF66 /* QuartzCore.framework in Frameworks */,
+				953B99671510F9320056DF66 /* MediaPlayer.framework in Frameworks */,
+				953B99651510F91C0056DF66 /* CoreText.framework in Frameworks */,
+				953B99631510F90E0056DF66 /* CFNetwork.framework in Frameworks */,
+				953B99611510F8DE0056DF66 /* AudioToolbox.framework in Frameworks */,
+				953B995F1510F8CD0056DF66 /* CoreAudio.framework in Frameworks */,
+				01036D531508BDE7002E81B4 /* libxml2.dylib in Frameworks */,
+				01036D511508BDD4002E81B4 /* MapKit.framework in Frameworks */,
+				010FFD691506631A00631AFF /* UIKit.framework in Frameworks */,
+				010FFD6B1506631A00631AFF /* Foundation.framework in Frameworks */,
+				010FFD6D1506631A00631AFF /* CoreGraphics.framework in Frameworks */,
+				013FC33D15862341003A0F04 /* FastPdfKit.framework in Frameworks */,
+				013FC36115862361003A0F04 /* Common.framework in Frameworks */,
+				013FC36215862361003A0F04 /* libPayPalMPL.a in Frameworks */,
+				013FC36315862361003A0F04 /* FPKConfig.framework in Frameworks */,
+				013FC36415862361003A0F04 /* FPKGalleryFade.framework in Frameworks */,
+				013FC36515862361003A0F04 /* FPKGallerySlide.framework in Frameworks */,
+				013FC36615862361003A0F04 /* FPKGalleryTap.framework in Frameworks */,
+				013FC36715862361003A0F04 /* FPKMap.framework in Frameworks */,
+				013FC36815862361003A0F04 /* FPKMessage.framework in Frameworks */,
+				013FC36A15862361003A0F04 /* FPKPayPal.framework in Frameworks */,
+				013FC36B15862361003A0F04 /* FPKShared.framework in Frameworks */,
+				013FC36C15862361003A0F04 /* FPKWebPopup.framework in Frameworks */,
+				013FC36D15862361003A0F04 /* FPKYouTube.framework in Frameworks */,
+				013FC373158624C8003A0F04 /* libFPKSynchronizer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010FFD591506631A00631AFF = {
+			isa = PBXGroup;
+			children = (
+				010FFD6E1506631A00631AFF /* MagTestApp */,
+				010FFD671506631A00631AFF /* Frameworks */,
+				010FFD651506631A00631AFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		010FFD651506631A00631AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				010FFD641506631A00631AFF /* MagTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		010FFD671506631A00631AFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013FC33815862341003A0F04 /* FastPdfKit.embeddedframework */,
+				95B9C5561510FC6000411AF6 /* CoreFoundation.framework */,
+				953B995E1510F8CD0056DF66 /* CoreAudio.framework */,
+				953B99691510F9600056DF66 /* AVFoundation.framework */,
+				953B99661510F9320056DF66 /* MediaPlayer.framework */,
+				953B99641510F91C0056DF66 /* CoreText.framework */,
+				953B99621510F90E0056DF66 /* CFNetwork.framework */,
+				953B99601510F8DE0056DF66 /* AudioToolbox.framework */,
+				01036D521508BDE7002E81B4 /* libxml2.dylib */,
+				01036D501508BDD4002E81B4 /* MapKit.framework */,
+				01036D4E1508BDAC002E81B4 /* QuartzCore.framework */,
+				01036D4C1508BD9F002E81B4 /* Security.framework */,
+				010FFD681506631A00631AFF /* UIKit.framework */,
+				010FFD6A1506631A00631AFF /* Foundation.framework */,
+				010FFD6C1506631A00631AFF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		010FFD6E1506631A00631AFF /* MagTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				013FC3751586251C003A0F04 /* FPKSynchronizer */,
+				0152EC7F1583F4F6005FFCEB /* Extensions */,
+				01036D541508BDFC002E81B4 /* OverlayManager.h */,
+				01036D551508BDFC002E81B4 /* OverlayManager.m */,
+				010FFD771506631A00631AFF /* MagAppDelegate.h */,
+				010FFD781506631A00631AFF /* MagAppDelegate.m */,
+				010FFD6F1506631A00631AFF /* Supporting Files */,
+				0138AC241507B7C300DCCF52 /* MagViewController.h */,
+				0138AC251507B7C300DCCF52 /* MagViewController.m */,
+				0138AC2B1507B8AE00DCCF52 /* MagViewController.xib */,
+				01036D6C1508CCD0002E81B4 /* MagReaderViewController.h */,
+				01036D6D1508CCD0002E81B4 /* MagReaderViewController.m */,
+			);
+			path = MagTestApp;
+			sourceTree = "<group>";
+		};
+		010FFD6F1506631A00631AFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				010FFD701506631A00631AFF /* MagTestApp-Info.plist */,
+				010FFD711506631A00631AFF /* InfoPlist.strings */,
+				010FFD741506631A00631AFF /* main.m */,
+				010FFD761506631A00631AFF /* MagTestApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		013FC33815862341003A0F04 /* FastPdfKit.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				013FC33915862341003A0F04 /* FastPdfKit.framework */,
+				013FC33A15862341003A0F04 /* Resources */,
+			);
+			name = FastPdfKit.embeddedframework;
+			path = ../FastPdfKit.embeddedframework;
+			sourceTree = "<group>";
+		};
+		013FC33A15862341003A0F04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				013FC33B15862341003A0F04 /* FPKReaderBundle.bundle */,
+				013FC33C15862341003A0F04 /* Snippets.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		013FC34015862360003A0F04 /* Common.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				013FC34115862360003A0F04 /* Common.framework */,
+				013FC34215862360003A0F04 /* Resources */,
+			);
+			path = Common.embeddedframework;
+			sourceTree = "<group>";
+		};
+		013FC34215862360003A0F04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				013FC34315862360003A0F04 /* libPayPalMPL.a */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		013FC34415862360003A0F04 /* FPKConfig.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				013FC34515862360003A0F04 /* FPKConfig.framework */,
+				013FC34615862360003A0F04 /* Resources */,
+			);
+			path = FPKConfig.embeddedframework;
+			sourceTree = "<group>";
+		};
+		013FC34615862360003A0F04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		013FC34715862360003A0F04 /* FPKGalleryFade.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				013FC34815862360003A0F04 /* FPKGalleryFade.framework */,
+			);
+			path = FPKGalleryFade.embeddedframework;
+			sourceTree = "<group>";
+		};
+		013FC34915862360003A0F04 /* FPKGallerySlide.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				013FC34A15862360003A0F04 /* FPKGallerySlide.framework */,
+				013FC34B15862360003A0F04 /* Resources */,
+			);
+			path = FPKGallerySlide.embeddedframework;
+			sourceTree = "<group>";
+		};
+		013FC34B15862360003A0F04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		013FC34C15862360003A0F04 /* FPKGalleryTap.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				013FC34D15862360003A0F04 /* FPKGalleryTap.framework */,
+				013FC34E15862360003A0F04 /* Resources */,
+			);
+			path = FPKGalleryTap.embeddedframework;
+			sourceTree = "<group>";
+		};
+		013FC34E15862360003A0F04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		013FC34F15862360003A0F04 /* FPKMap.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				013FC35015862360003A0F04 /* FPKMap.framework */,
+			);
+			path = FPKMap.embeddedframework;
+			sourceTree = "<group>";
+		};
+		013FC35115862360003A0F04 /* FPKMessage.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				013FC35215862360003A0F04 /* FPKMessage.framework */,
+				013FC35315862360003A0F04 /* Resources */,
+			);
+			path = FPKMessage.embeddedframework;
+			sourceTree = "<group>";
+		};
+		013FC35315862360003A0F04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				013FC35415862360003A0F04 /* fpkmessage-info.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		013FC35515862360003A0F04 /* FPKPayPal.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				013FC35615862360003A0F04 /* FPKPayPal.framework */,
+				013FC35715862360003A0F04 /* Resources */,
+			);
+			path = FPKPayPal.embeddedframework;
+			sourceTree = "<group>";
+		};
+		013FC35715862360003A0F04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		013FC35815862360003A0F04 /* FPKShared.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				013FC35915862360003A0F04 /* FPKShared.framework */,
+				013FC35A15862360003A0F04 /* Resources */,
+			);
+			path = FPKShared.embeddedframework;
+			sourceTree = "<group>";
+		};
+		013FC35A15862360003A0F04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		013FC35B15862360003A0F04 /* FPKWebPopup.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				013FC35C15862360003A0F04 /* FPKWebPopup.framework */,
+				013FC35D15862360003A0F04 /* Resources */,
+			);
+			path = FPKWebPopup.embeddedframework;
+			sourceTree = "<group>";
+		};
+		013FC35D15862360003A0F04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		013FC35E15862360003A0F04 /* FPKYouTube.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				013FC35F15862360003A0F04 /* FPKYouTube.framework */,
+				013FC36015862360003A0F04 /* Resources */,
+			);
+			path = FPKYouTube.embeddedframework;
+			sourceTree = "<group>";
+		};
+		013FC36015862360003A0F04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		013FC3751586251C003A0F04 /* FPKSynchronizer */ = {
+			isa = PBXGroup;
+			children = (
+				013FC372158624C8003A0F04 /* libFPKSynchronizer.a */,
+				013FC374158624DF003A0F04 /* FPKSynchronizerServer.h */,
+			);
+			name = FPKSynchronizer;
+			sourceTree = "<group>";
+		};
+		0152EC7F1583F4F6005FFCEB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				013FC34015862360003A0F04 /* Common.embeddedframework */,
+				013FC34415862360003A0F04 /* FPKConfig.embeddedframework */,
+				013FC34715862360003A0F04 /* FPKGalleryFade.embeddedframework */,
+				013FC34915862360003A0F04 /* FPKGallerySlide.embeddedframework */,
+				013FC34C15862360003A0F04 /* FPKGalleryTap.embeddedframework */,
+				013FC34F15862360003A0F04 /* FPKMap.embeddedframework */,
+				013FC35115862360003A0F04 /* FPKMessage.embeddedframework */,
+				013FC35515862360003A0F04 /* FPKPayPal.embeddedframework */,
+				013FC35815862360003A0F04 /* FPKShared.embeddedframework */,
+				013FC35B15862360003A0F04 /* FPKWebPopup.embeddedframework */,
+				013FC35E15862360003A0F04 /* FPKYouTube.embeddedframework */,
+			);
+			name = Extensions;
+			path = ../../Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		010FFD631506631A00631AFF /* MagTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010FFD7C1506631A00631AFF /* Build configuration list for PBXNativeTarget "MagTestApp" */;
+			buildPhases = (
+				010FFD601506631A00631AFF /* Sources */,
+				010FFD611506631A00631AFF /* Frameworks */,
+				010FFD621506631A00631AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagTestApp;
+			productName = MagTestApp;
+			productReference = 010FFD641506631A00631AFF /* MagTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		010FFD5B1506631A00631AFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 010FFD5E1506631A00631AFF /* Build configuration list for PBXProject "MagTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 010FFD591506631A00631AFF;
+			productRefGroup = 010FFD651506631A00631AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				010FFD631506631A00631AFF /* MagTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		010FFD621506631A00631AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010FFD731506631A00631AFF /* InfoPlist.strings in Resources */,
+				0138AC2C1507B8AE00DCCF52 /* MagViewController.xib in Resources */,
+				013FC33E15862341003A0F04 /* FPKReaderBundle.bundle in Resources */,
+				013FC33F15862341003A0F04 /* Snippets.txt in Resources */,
+				013FC36915862361003A0F04 /* fpkmessage-info.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		010FFD601506631A00631AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010FFD751506631A00631AFF /* main.m in Sources */,
+				010FFD791506631A00631AFF /* MagAppDelegate.m in Sources */,
+				0138AC261507B7C300DCCF52 /* MagViewController.m in Sources */,
+				01036D561508BDFC002E81B4 /* OverlayManager.m in Sources */,
+				01036D6E1508CCD0002E81B4 /* MagReaderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		010FFD711506631A00631AFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010FFD721506631A00631AFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		010FFD7A1506631A00631AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		010FFD7B1506631A00631AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		010FFD7D1506631A00631AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FastPdfKit.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/Common/Common.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKMap/FPKMap.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKShared/FPKShared.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKGalleryFade/FPKGalleryFade.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKGalleryTap/FPKGalleryTap.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKGallerySlide/FPKGallerySlide.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKMessage/FPKMessage.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKPayPal/FPKPayPal.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKWebPopup/FPKWebPopup.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKYouTube/FPKYouTube.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKConfig/FPKConfig.embeddedframework\"",
+					"\"$(SRCROOT)/Common.embeddedframework\"",
+					"\"$(SRCROOT)/FPKGalleryFade.embeddedframework\"",
+					"\"$(SRCROOT)/FPKGallerySlide.embeddedframework\"",
+					"\"$(SRCROOT)/FPKGalleryTap.embeddedframework\"",
+					"\"$(SRCROOT)/FPKMap.embeddedframework\"",
+					"\"$(SRCROOT)/FPKMessage.embeddedframework\"",
+					"\"$(SRCROOT)/FPKPayPal.embeddedframework\"",
+					"\"$(SRCROOT)/FPKShared.embeddedframework\"",
+					"\"$(SRCROOT)/FPKWebPopup.embeddedframework\"",
+					"\"$(SRCROOT)/FPKYouTube.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/Common.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKConfig.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKGalleryFade.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKGallerySlide.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKGalleryTap.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKMap.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKMessage.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKPayPal.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKShared.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKWebPopup.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKYouTube.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/Common.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKConfig.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKGalleryFade.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKGallerySlide.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKGalleryTap.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKMap.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKMessage.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKPayPal.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKShared.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKWebPopup.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKYouTube.embeddedframework\"",
+					"\"$(SRCROOT)/../FastPdfKit.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/Common.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKConfig.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKGalleryFade.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKGallerySlide.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKGalleryTap.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKMap.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKMessage.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKPayPal.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKShared.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKWebPopup.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKYouTube.embeddedframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagTestApp/MagTestApp-Prefix.pch";
+				INFOPLIST_FILE = "MagTestApp/MagTestApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MagTestApp\"",
+					"\"$(SRCROOT)/Common.embeddedframework/Resources\"",
+					"\"$(SRCROOT)/../FastPdfKitSample/Classes/Extended/Extensions/Common.embeddedframework/Resources\"",
+					"\"$(SRCROOT)/../FPKExtensions/Common/Common.embeddedframework/Resources\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKGallerySlide\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/Common.embeddedframework/Resources\"",
+					"\"$(SRCROOT)/Extensions/Common.embeddedframework/Resources\"",
+					"\"$(SRCROOT)/../Extensions/Common.embeddedframework/Resources\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				USER_HEADER_SEARCH_PATHS = ../../FPKSynchronizer/FPKSynchronizer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		010FFD7E1506631A00631AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FastPdfKit.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/Common/Common.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKMap/FPKMap.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKShared/FPKShared.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKGalleryFade/FPKGalleryFade.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKGalleryTap/FPKGalleryTap.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKGallerySlide/FPKGallerySlide.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKMessage/FPKMessage.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKPayPal/FPKPayPal.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKWebPopup/FPKWebPopup.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKYouTube/FPKYouTube.embeddedframework\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKConfig/FPKConfig.embeddedframework\"",
+					"\"$(SRCROOT)/Common.embeddedframework\"",
+					"\"$(SRCROOT)/FPKGalleryFade.embeddedframework\"",
+					"\"$(SRCROOT)/FPKGallerySlide.embeddedframework\"",
+					"\"$(SRCROOT)/FPKGalleryTap.embeddedframework\"",
+					"\"$(SRCROOT)/FPKMap.embeddedframework\"",
+					"\"$(SRCROOT)/FPKMessage.embeddedframework\"",
+					"\"$(SRCROOT)/FPKPayPal.embeddedframework\"",
+					"\"$(SRCROOT)/FPKShared.embeddedframework\"",
+					"\"$(SRCROOT)/FPKWebPopup.embeddedframework\"",
+					"\"$(SRCROOT)/FPKYouTube.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/Common.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKConfig.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKGalleryFade.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKGallerySlide.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKGalleryTap.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKMap.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKMessage.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKPayPal.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKShared.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKWebPopup.embeddedframework\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/FPKYouTube.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/Common.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKConfig.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKGalleryFade.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKGallerySlide.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKGalleryTap.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKMap.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKMessage.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKPayPal.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKShared.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKWebPopup.embeddedframework\"",
+					"\"$(SRCROOT)/Extensions/FPKYouTube.embeddedframework\"",
+					"\"$(SRCROOT)/../FastPdfKit.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/Common.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKConfig.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKGalleryFade.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKGallerySlide.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKGalleryTap.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKMap.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKMessage.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKPayPal.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKShared.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKWebPopup.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKYouTube.embeddedframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagTestApp/MagTestApp-Prefix.pch";
+				INFOPLIST_FILE = "MagTestApp/MagTestApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MagTestApp\"",
+					"\"$(SRCROOT)/Common.embeddedframework/Resources\"",
+					"\"$(SRCROOT)/../FastPdfKitSample/Classes/Extended/Extensions/Common.embeddedframework/Resources\"",
+					"\"$(SRCROOT)/../FPKExtensions/Common/Common.embeddedframework/Resources\"",
+					"\"$(SRCROOT)/../FPKExtensions/FPKGallerySlide\"",
+					"\"$(SRCROOT)/MagTestApp/Extensions/Common.embeddedframework/Resources\"",
+					"\"$(SRCROOT)/Extensions/Common.embeddedframework/Resources\"",
+					"\"$(SRCROOT)/../Extensions/Common.embeddedframework/Resources\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				USER_HEADER_SEARCH_PATHS = ../../FPKSynchronizer/FPKSynchronizer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010FFD5E1506631A00631AFF /* Build configuration list for PBXProject "MagTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010FFD7A1506631A00631AFF /* Debug */,
+				010FFD7B1506631A00631AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010FFD7C1506631A00631AFF /* Build configuration list for PBXNativeTarget "MagTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010FFD7D1506631A00631AFF /* Debug */,
+				010FFD7E1506631A00631AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 010FFD5B1506631A00631AFF /* Project object */;
+}
