@@ -10,23 +10,22 @@
 		013FC2601585FEA3003A0F04 /* FPKMainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013FC2611585FEA3003A0F04 /* FPKMainViewController_iPad.xib */; };
 		013FC2621585FEA8003A0F04 /* FPKMainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013FC2631585FEA8003A0F04 /* FPKMainViewController_iPhone.xib */; };
 		013FC2661585FF53003A0F04 /* FPKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013FC2651585FF53003A0F04 /* FPKAppDelegate.m */; };
-		013FC3021586066A003A0F04 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC2E21586066A003A0F04 /* Common.framework */; };
-		013FC3031586066A003A0F04 /* libPayPalMPL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC2E41586066A003A0F04 /* libPayPalMPL.a */; };
-		013FC3041586066A003A0F04 /* FPKConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC2E61586066A003A0F04 /* FPKConfig.framework */; };
-		013FC3051586066A003A0F04 /* FPKGalleryFade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC2E91586066A003A0F04 /* FPKGalleryFade.framework */; };
-		013FC3061586066A003A0F04 /* FPKGallerySlide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC2EB1586066A003A0F04 /* FPKGallerySlide.framework */; };
-		013FC3071586066A003A0F04 /* FPKGalleryTap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC2EE1586066A003A0F04 /* FPKGalleryTap.framework */; };
-		013FC3081586066A003A0F04 /* FPKMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC2F11586066A003A0F04 /* FPKMap.framework */; };
-		013FC3091586066A003A0F04 /* FPKMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC2F31586066A003A0F04 /* FPKMessage.framework */; };
-		013FC30A1586066A003A0F04 /* fpkmessage-info.png in Resources */ = {isa = PBXBuildFile; fileRef = 013FC2F51586066A003A0F04 /* fpkmessage-info.png */; };
-		013FC30B1586066A003A0F04 /* FPKPayPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC2F71586066A003A0F04 /* FPKPayPal.framework */; };
-		013FC30C1586066A003A0F04 /* FPKShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC2FA1586066A003A0F04 /* FPKShared.framework */; };
-		013FC30D1586066A003A0F04 /* FPKWebPopup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC2FD1586066A003A0F04 /* FPKWebPopup.framework */; };
-		013FC30E1586066A003A0F04 /* FPKYouTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC3001586066A003A0F04 /* FPKYouTube.framework */; };
-		013FC31D1586088F003A0F04 /* FastPdfKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC3181586088F003A0F04 /* FastPdfKit.framework */; };
-		013FC31E1586088F003A0F04 /* FastPdfKitFramework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 013FC31A1586088F003A0F04 /* FastPdfKitFramework.xcconfig */; };
-		013FC31F1586088F003A0F04 /* FPKReaderBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 013FC31B1586088F003A0F04 /* FPKReaderBundle.bundle */; };
-		013FC3201586088F003A0F04 /* Snippets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 013FC31C1586088F003A0F04 /* Snippets.txt */; };
+		013FC40515867B21003A0F04 /* FastPdfKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC40015867B21003A0F04 /* FastPdfKit.framework */; };
+		013FC40615867B21003A0F04 /* FPKReaderBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 013FC40215867B21003A0F04 /* FPKReaderBundle.bundle */; };
+		013FC40815867B21003A0F04 /* Snippets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 013FC40415867B21003A0F04 /* Snippets.txt */; };
+		013FC46A15867C30003A0F04 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC44A15867C30003A0F04 /* Common.framework */; };
+		013FC46B15867C30003A0F04 /* libPayPalMPL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC44C15867C30003A0F04 /* libPayPalMPL.a */; };
+		013FC46C15867C30003A0F04 /* FPKConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC44E15867C30003A0F04 /* FPKConfig.framework */; };
+		013FC46D15867C30003A0F04 /* FPKGalleryFade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC45115867C30003A0F04 /* FPKGalleryFade.framework */; };
+		013FC46E15867C30003A0F04 /* FPKGallerySlide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC45315867C30003A0F04 /* FPKGallerySlide.framework */; };
+		013FC46F15867C30003A0F04 /* FPKGalleryTap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC45615867C30003A0F04 /* FPKGalleryTap.framework */; };
+		013FC47015867C30003A0F04 /* FPKMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC45915867C30003A0F04 /* FPKMap.framework */; };
+		013FC47115867C30003A0F04 /* FPKMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC45B15867C30003A0F04 /* FPKMessage.framework */; };
+		013FC47215867C30003A0F04 /* fpkmessage-info.png in Resources */ = {isa = PBXBuildFile; fileRef = 013FC45D15867C30003A0F04 /* fpkmessage-info.png */; };
+		013FC47315867C30003A0F04 /* FPKPayPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC45F15867C30003A0F04 /* FPKPayPal.framework */; };
+		013FC47415867C30003A0F04 /* FPKShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC46215867C30003A0F04 /* FPKShared.framework */; };
+		013FC47515867C30003A0F04 /* FPKWebPopup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC46515867C30003A0F04 /* FPKWebPopup.framework */; };
+		013FC47615867C30003A0F04 /* FPKYouTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC46815867C30003A0F04 /* FPKYouTube.framework */; };
 		0152EBCC1583E908005FFCEB /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0152EBAD1583E908005FFCEB /* ASIAuthenticationDialog.m */; };
 		0152EBCD1583E908005FFCEB /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0152EBB01583E908005FFCEB /* ASIDownloadCache.m */; };
 		0152EBCE1583E908005FFCEB /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0152EBB21583E908005FFCEB /* ASIFormDataRequest.m */; };
@@ -75,23 +74,22 @@
 		013FC2631585FEA8003A0F04 /* FPKMainViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FPKMainViewController_iPhone.xib; sourceTree = "<group>"; };
 		013FC2641585FF53003A0F04 /* FPKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPKAppDelegate.h; sourceTree = "<group>"; };
 		013FC2651585FF53003A0F04 /* FPKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPKAppDelegate.m; sourceTree = "<group>"; };
-		013FC2E21586066A003A0F04 /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Common.framework; sourceTree = "<group>"; };
-		013FC2E41586066A003A0F04 /* libPayPalMPL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMPL.a; sourceTree = "<group>"; };
-		013FC2E61586066A003A0F04 /* FPKConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKConfig.framework; sourceTree = "<group>"; };
-		013FC2E91586066A003A0F04 /* FPKGalleryFade.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKGalleryFade.framework; sourceTree = "<group>"; };
-		013FC2EB1586066A003A0F04 /* FPKGallerySlide.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKGallerySlide.framework; sourceTree = "<group>"; };
-		013FC2EE1586066A003A0F04 /* FPKGalleryTap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKGalleryTap.framework; sourceTree = "<group>"; };
-		013FC2F11586066A003A0F04 /* FPKMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKMap.framework; sourceTree = "<group>"; };
-		013FC2F31586066A003A0F04 /* FPKMessage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKMessage.framework; sourceTree = "<group>"; };
-		013FC2F51586066A003A0F04 /* fpkmessage-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fpkmessage-info.png"; sourceTree = "<group>"; };
-		013FC2F71586066A003A0F04 /* FPKPayPal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKPayPal.framework; sourceTree = "<group>"; };
-		013FC2FA1586066A003A0F04 /* FPKShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKShared.framework; sourceTree = "<group>"; };
-		013FC2FD1586066A003A0F04 /* FPKWebPopup.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKWebPopup.framework; sourceTree = "<group>"; };
-		013FC3001586066A003A0F04 /* FPKYouTube.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKYouTube.framework; sourceTree = "<group>"; };
-		013FC3181586088F003A0F04 /* FastPdfKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FastPdfKit.framework; sourceTree = "<group>"; };
-		013FC31A1586088F003A0F04 /* FastPdfKitFramework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FastPdfKitFramework.xcconfig; sourceTree = "<group>"; };
-		013FC31B1586088F003A0F04 /* FPKReaderBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FPKReaderBundle.bundle; sourceTree = "<group>"; };
-		013FC31C1586088F003A0F04 /* Snippets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snippets.txt; sourceTree = "<group>"; };
+		013FC40015867B21003A0F04 /* FastPdfKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FastPdfKit.framework; sourceTree = "<group>"; };
+		013FC40215867B21003A0F04 /* FPKReaderBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FPKReaderBundle.bundle; sourceTree = "<group>"; };
+		013FC40415867B21003A0F04 /* Snippets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snippets.txt; sourceTree = "<group>"; };
+		013FC44A15867C30003A0F04 /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Common.framework; sourceTree = "<group>"; };
+		013FC44C15867C30003A0F04 /* libPayPalMPL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMPL.a; sourceTree = "<group>"; };
+		013FC44E15867C30003A0F04 /* FPKConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKConfig.framework; sourceTree = "<group>"; };
+		013FC45115867C30003A0F04 /* FPKGalleryFade.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKGalleryFade.framework; sourceTree = "<group>"; };
+		013FC45315867C30003A0F04 /* FPKGallerySlide.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKGallerySlide.framework; sourceTree = "<group>"; };
+		013FC45615867C30003A0F04 /* FPKGalleryTap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKGalleryTap.framework; sourceTree = "<group>"; };
+		013FC45915867C30003A0F04 /* FPKMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKMap.framework; sourceTree = "<group>"; };
+		013FC45B15867C30003A0F04 /* FPKMessage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKMessage.framework; sourceTree = "<group>"; };
+		013FC45D15867C30003A0F04 /* fpkmessage-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fpkmessage-info.png"; sourceTree = "<group>"; };
+		013FC45F15867C30003A0F04 /* FPKPayPal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKPayPal.framework; sourceTree = "<group>"; };
+		013FC46215867C30003A0F04 /* FPKShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKShared.framework; sourceTree = "<group>"; };
+		013FC46515867C30003A0F04 /* FPKWebPopup.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKWebPopup.framework; sourceTree = "<group>"; };
+		013FC46815867C30003A0F04 /* FPKYouTube.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKYouTube.framework; sourceTree = "<group>"; };
 		0152EBAC1583E908005FFCEB /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		0152EBAD1583E908005FFCEB /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
 		0152EBAE1583E908005FFCEB /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
@@ -226,203 +224,202 @@
 				954B74B014B47F0D00503F90 /* Foundation.framework in Frameworks */,
 				954B74B114B47F0D00503F90 /* CoreGraphics.framework in Frameworks */,
 				0152EC5F1583EF40005FFCEB /* libziparchive.a in Frameworks */,
-				013FC3021586066A003A0F04 /* Common.framework in Frameworks */,
-				013FC3031586066A003A0F04 /* libPayPalMPL.a in Frameworks */,
-				013FC3041586066A003A0F04 /* FPKConfig.framework in Frameworks */,
-				013FC3051586066A003A0F04 /* FPKGalleryFade.framework in Frameworks */,
-				013FC3061586066A003A0F04 /* FPKGallerySlide.framework in Frameworks */,
-				013FC3071586066A003A0F04 /* FPKGalleryTap.framework in Frameworks */,
-				013FC3081586066A003A0F04 /* FPKMap.framework in Frameworks */,
-				013FC3091586066A003A0F04 /* FPKMessage.framework in Frameworks */,
-				013FC30B1586066A003A0F04 /* FPKPayPal.framework in Frameworks */,
-				013FC30C1586066A003A0F04 /* FPKShared.framework in Frameworks */,
-				013FC30D1586066A003A0F04 /* FPKWebPopup.framework in Frameworks */,
-				013FC30E1586066A003A0F04 /* FPKYouTube.framework in Frameworks */,
-				013FC31D1586088F003A0F04 /* FastPdfKit.framework in Frameworks */,
+				013FC40515867B21003A0F04 /* FastPdfKit.framework in Frameworks */,
+				013FC46A15867C30003A0F04 /* Common.framework in Frameworks */,
+				013FC46B15867C30003A0F04 /* libPayPalMPL.a in Frameworks */,
+				013FC46C15867C30003A0F04 /* FPKConfig.framework in Frameworks */,
+				013FC46D15867C30003A0F04 /* FPKGalleryFade.framework in Frameworks */,
+				013FC46E15867C30003A0F04 /* FPKGallerySlide.framework in Frameworks */,
+				013FC46F15867C30003A0F04 /* FPKGalleryTap.framework in Frameworks */,
+				013FC47015867C30003A0F04 /* FPKMap.framework in Frameworks */,
+				013FC47115867C30003A0F04 /* FPKMessage.framework in Frameworks */,
+				013FC47315867C30003A0F04 /* FPKPayPal.framework in Frameworks */,
+				013FC47415867C30003A0F04 /* FPKShared.framework in Frameworks */,
+				013FC47515867C30003A0F04 /* FPKWebPopup.framework in Frameworks */,
+				013FC47615867C30003A0F04 /* FPKYouTube.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		013FC2E11586066A003A0F04 /* Common.embeddedframework */ = {
+		013FC3FF15867B21003A0F04 /* FastPdfKit.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				013FC2E21586066A003A0F04 /* Common.framework */,
-				013FC2E31586066A003A0F04 /* Resources */,
+				013FC40015867B21003A0F04 /* FastPdfKit.framework */,
+				013FC40115867B21003A0F04 /* Resources */,
+			);
+			name = FastPdfKit.embeddedframework;
+			path = ../FastPdfKit.embeddedframework;
+			sourceTree = "<group>";
+		};
+		013FC40115867B21003A0F04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				013FC40215867B21003A0F04 /* FPKReaderBundle.bundle */,
+				013FC40415867B21003A0F04 /* Snippets.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		013FC44915867C30003A0F04 /* Common.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				013FC44A15867C30003A0F04 /* Common.framework */,
+				013FC44B15867C30003A0F04 /* Resources */,
 			);
 			path = Common.embeddedframework;
 			sourceTree = "<group>";
 		};
-		013FC2E31586066A003A0F04 /* Resources */ = {
+		013FC44B15867C30003A0F04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				013FC2E41586066A003A0F04 /* libPayPalMPL.a */,
+				013FC44C15867C30003A0F04 /* libPayPalMPL.a */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		013FC2E51586066A003A0F04 /* FPKConfig.embeddedframework */ = {
+		013FC44D15867C30003A0F04 /* FPKConfig.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				013FC2E61586066A003A0F04 /* FPKConfig.framework */,
-				013FC2E71586066A003A0F04 /* Resources */,
+				013FC44E15867C30003A0F04 /* FPKConfig.framework */,
+				013FC44F15867C30003A0F04 /* Resources */,
 			);
 			path = FPKConfig.embeddedframework;
 			sourceTree = "<group>";
 		};
-		013FC2E71586066A003A0F04 /* Resources */ = {
+		013FC44F15867C30003A0F04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		013FC2E81586066A003A0F04 /* FPKGalleryFade.embeddedframework */ = {
+		013FC45015867C30003A0F04 /* FPKGalleryFade.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				013FC2E91586066A003A0F04 /* FPKGalleryFade.framework */,
+				013FC45115867C30003A0F04 /* FPKGalleryFade.framework */,
 			);
 			path = FPKGalleryFade.embeddedframework;
 			sourceTree = "<group>";
 		};
-		013FC2EA1586066A003A0F04 /* FPKGallerySlide.embeddedframework */ = {
+		013FC45215867C30003A0F04 /* FPKGallerySlide.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				013FC2EB1586066A003A0F04 /* FPKGallerySlide.framework */,
-				013FC2EC1586066A003A0F04 /* Resources */,
+				013FC45315867C30003A0F04 /* FPKGallerySlide.framework */,
+				013FC45415867C30003A0F04 /* Resources */,
 			);
 			path = FPKGallerySlide.embeddedframework;
 			sourceTree = "<group>";
 		};
-		013FC2EC1586066A003A0F04 /* Resources */ = {
+		013FC45415867C30003A0F04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		013FC2ED1586066A003A0F04 /* FPKGalleryTap.embeddedframework */ = {
+		013FC45515867C30003A0F04 /* FPKGalleryTap.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				013FC2EE1586066A003A0F04 /* FPKGalleryTap.framework */,
-				013FC2EF1586066A003A0F04 /* Resources */,
+				013FC45615867C30003A0F04 /* FPKGalleryTap.framework */,
+				013FC45715867C30003A0F04 /* Resources */,
 			);
 			path = FPKGalleryTap.embeddedframework;
 			sourceTree = "<group>";
 		};
-		013FC2EF1586066A003A0F04 /* Resources */ = {
+		013FC45715867C30003A0F04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		013FC2F01586066A003A0F04 /* FPKMap.embeddedframework */ = {
+		013FC45815867C30003A0F04 /* FPKMap.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				013FC2F11586066A003A0F04 /* FPKMap.framework */,
+				013FC45915867C30003A0F04 /* FPKMap.framework */,
 			);
 			path = FPKMap.embeddedframework;
 			sourceTree = "<group>";
 		};
-		013FC2F21586066A003A0F04 /* FPKMessage.embeddedframework */ = {
+		013FC45A15867C30003A0F04 /* FPKMessage.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				013FC2F31586066A003A0F04 /* FPKMessage.framework */,
-				013FC2F41586066A003A0F04 /* Resources */,
+				013FC45B15867C30003A0F04 /* FPKMessage.framework */,
+				013FC45C15867C30003A0F04 /* Resources */,
 			);
 			path = FPKMessage.embeddedframework;
 			sourceTree = "<group>";
 		};
-		013FC2F41586066A003A0F04 /* Resources */ = {
+		013FC45C15867C30003A0F04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				013FC2F51586066A003A0F04 /* fpkmessage-info.png */,
+				013FC45D15867C30003A0F04 /* fpkmessage-info.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		013FC2F61586066A003A0F04 /* FPKPayPal.embeddedframework */ = {
+		013FC45E15867C30003A0F04 /* FPKPayPal.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				013FC2F71586066A003A0F04 /* FPKPayPal.framework */,
-				013FC2F81586066A003A0F04 /* Resources */,
+				013FC45F15867C30003A0F04 /* FPKPayPal.framework */,
+				013FC46015867C30003A0F04 /* Resources */,
 			);
 			path = FPKPayPal.embeddedframework;
 			sourceTree = "<group>";
 		};
-		013FC2F81586066A003A0F04 /* Resources */ = {
+		013FC46015867C30003A0F04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		013FC2F91586066A003A0F04 /* FPKShared.embeddedframework */ = {
+		013FC46115867C30003A0F04 /* FPKShared.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				013FC2FA1586066A003A0F04 /* FPKShared.framework */,
-				013FC2FB1586066A003A0F04 /* Resources */,
+				013FC46215867C30003A0F04 /* FPKShared.framework */,
+				013FC46315867C30003A0F04 /* Resources */,
 			);
 			path = FPKShared.embeddedframework;
 			sourceTree = "<group>";
 		};
-		013FC2FB1586066A003A0F04 /* Resources */ = {
+		013FC46315867C30003A0F04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		013FC2FC1586066A003A0F04 /* FPKWebPopup.embeddedframework */ = {
+		013FC46415867C30003A0F04 /* FPKWebPopup.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				013FC2FD1586066A003A0F04 /* FPKWebPopup.framework */,
-				013FC2FE1586066A003A0F04 /* Resources */,
+				013FC46515867C30003A0F04 /* FPKWebPopup.framework */,
+				013FC46615867C30003A0F04 /* Resources */,
 			);
 			path = FPKWebPopup.embeddedframework;
 			sourceTree = "<group>";
 		};
-		013FC2FE1586066A003A0F04 /* Resources */ = {
+		013FC46615867C30003A0F04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		013FC2FF1586066A003A0F04 /* FPKYouTube.embeddedframework */ = {
+		013FC46715867C30003A0F04 /* FPKYouTube.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				013FC3001586066A003A0F04 /* FPKYouTube.framework */,
-				013FC3011586066A003A0F04 /* Resources */,
+				013FC46815867C30003A0F04 /* FPKYouTube.framework */,
+				013FC46915867C30003A0F04 /* Resources */,
 			);
 			path = FPKYouTube.embeddedframework;
 			sourceTree = "<group>";
 		};
-		013FC3011586066A003A0F04 /* Resources */ = {
+		013FC46915867C30003A0F04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		013FC3171586088F003A0F04 /* FastPdfKit.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				013FC3181586088F003A0F04 /* FastPdfKit.framework */,
-				013FC3191586088F003A0F04 /* Resources */,
-			);
-			name = FastPdfKit.embeddedframework;
-			path = ../../FastPdfKit/FastPdfKitFramework/FastPdfKit.embeddedframework;
-			sourceTree = SOURCE_ROOT;
-		};
-		013FC3191586088F003A0F04 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				013FC31A1586088F003A0F04 /* FastPdfKitFramework.xcconfig */,
-				013FC31B1586088F003A0F04 /* FPKReaderBundle.bundle */,
-				013FC31C1586088F003A0F04 /* Snippets.txt */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -611,7 +608,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				013FC3171586088F003A0F04 /* FastPdfKit.embeddedframework */,
+				013FC3FF15867B21003A0F04 /* FastPdfKit.embeddedframework */,
 				951E4E4013D71E8400C9FC70 /* libz.dylib */,
 				954B751E14B4810000503F90 /* libxml2.dylib */,
 				954B752014B4811500503F90 /* Security.framework */,
@@ -647,17 +644,17 @@
 		954B74CC14B47FE000503F90 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				013FC2E11586066A003A0F04 /* Common.embeddedframework */,
-				013FC2E51586066A003A0F04 /* FPKConfig.embeddedframework */,
-				013FC2E81586066A003A0F04 /* FPKGalleryFade.embeddedframework */,
-				013FC2EA1586066A003A0F04 /* FPKGallerySlide.embeddedframework */,
-				013FC2ED1586066A003A0F04 /* FPKGalleryTap.embeddedframework */,
-				013FC2F01586066A003A0F04 /* FPKMap.embeddedframework */,
-				013FC2F21586066A003A0F04 /* FPKMessage.embeddedframework */,
-				013FC2F61586066A003A0F04 /* FPKPayPal.embeddedframework */,
-				013FC2F91586066A003A0F04 /* FPKShared.embeddedframework */,
-				013FC2FC1586066A003A0F04 /* FPKWebPopup.embeddedframework */,
-				013FC2FF1586066A003A0F04 /* FPKYouTube.embeddedframework */,
+				013FC44915867C30003A0F04 /* Common.embeddedframework */,
+				013FC44D15867C30003A0F04 /* FPKConfig.embeddedframework */,
+				013FC45015867C30003A0F04 /* FPKGalleryFade.embeddedframework */,
+				013FC45215867C30003A0F04 /* FPKGallerySlide.embeddedframework */,
+				013FC45515867C30003A0F04 /* FPKGalleryTap.embeddedframework */,
+				013FC45815867C30003A0F04 /* FPKMap.embeddedframework */,
+				013FC45A15867C30003A0F04 /* FPKMessage.embeddedframework */,
+				013FC45E15867C30003A0F04 /* FPKPayPal.embeddedframework */,
+				013FC46115867C30003A0F04 /* FPKShared.embeddedframework */,
+				013FC46415867C30003A0F04 /* FPKWebPopup.embeddedframework */,
+				013FC46715867C30003A0F04 /* FPKYouTube.embeddedframework */,
 			);
 			name = Extensions;
 			path = ../Extensions;
@@ -746,10 +743,9 @@
 				95EF544714B48EDD00910B3D /* Icon.png in Resources */,
 				95EF544814B48EDD00910B3D /* Icon72.png in Resources */,
 				95EF544914B48EDD00910B3D /* Icon114.png in Resources */,
-				013FC30A1586066A003A0F04 /* fpkmessage-info.png in Resources */,
-				013FC31E1586088F003A0F04 /* FastPdfKitFramework.xcconfig in Resources */,
-				013FC31F1586088F003A0F04 /* FPKReaderBundle.bundle in Resources */,
-				013FC3201586088F003A0F04 /* Snippets.txt in Resources */,
+				013FC40615867B21003A0F04 /* FPKReaderBundle.bundle in Resources */,
+				013FC40815867B21003A0F04 /* Snippets.txt in Resources */,
+				013FC47215867C30003A0F04 /* fpkmessage-info.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -795,7 +791,6 @@
 /* Begin XCBuildConfiguration section */
 		954B74C714B47F0D00503F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 013FC31A1586088F003A0F04 /* FastPdfKitFramework.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -803,30 +798,18 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/Common.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKGalleryFade.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKGallerySlide.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKGalleryTap.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKMap.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKMessage.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKPayPal.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKShared.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKWebPopup.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKYouTube.embeddedframework\"",
-					"\"$(SRCROOT)/../FastPdfKitFramework/FastPdfKit.embeddedframework\"",
-					"\"$(SRCROOT)/../FastPdfKit.embeddedframework\"",
-					"\"$(SRCROOT)/../Extensions/FPKShared.embeddedframework\"",
-					"\"$(SRCROOT)/../Extensions/FPKYouTube.embeddedframework\"",
-					"\"$(SRCROOT)/../Extensions/FPKMap.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/Common.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKConfig.embeddedframework\"",
 					"\"$(SRCROOT)/../Extensions/FPKGalleryFade.embeddedframework\"",
 					"\"$(SRCROOT)/../Extensions/FPKGallerySlide.embeddedframework\"",
 					"\"$(SRCROOT)/../Extensions/FPKGalleryTap.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKMap.embeddedframework\"",
 					"\"$(SRCROOT)/../Extensions/FPKMessage.embeddedframework\"",
-					"\"$(SRCROOT)/../Extensions/FPKWebPopup.embeddedframework\"",
-					"\"$(SRCROOT)/../Extensions/Common.embeddedframework\"",
 					"\"$(SRCROOT)/../Extensions/FPKPayPal.embeddedframework\"",
-					"\"$(SRCROOT)/../Extensions/FPKConfig.embeddedframework\"",
-					"\"$(SRCROOT)/../../FastPdfKit/FastPdfKitFramework/FastPdfKit.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKShared.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKWebPopup.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKYouTube.embeddedframework\"",
+					"\"$(SRCROOT)/../FastPdfKit.embeddedframework\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -846,7 +829,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/Common.embeddedframework/Resources\"",
 					"\"$(SRCROOT)/../ThirdParties\"",
 					"\"$(SRCROOT)/../Extensions/Common.embeddedframework/Resources\"",
 				);
@@ -888,7 +870,6 @@
 		};
 		954B74C814B47F0D00503F90 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 013FC31A1586088F003A0F04 /* FastPdfKitFramework.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -896,30 +877,18 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/Common.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKGalleryFade.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKGallerySlide.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKGalleryTap.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKMap.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKMessage.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKPayPal.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKShared.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKWebPopup.embeddedframework\"",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/FPKYouTube.embeddedframework\"",
-					"\"$(SRCROOT)/../FastPdfKitFramework/FastPdfKit.embeddedframework\"",
-					"\"$(SRCROOT)/../FastPdfKit.embeddedframework\"",
-					"\"$(SRCROOT)/../Extensions/FPKShared.embeddedframework\"",
-					"\"$(SRCROOT)/../Extensions/FPKYouTube.embeddedframework\"",
-					"\"$(SRCROOT)/../Extensions/FPKMap.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/Common.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKConfig.embeddedframework\"",
 					"\"$(SRCROOT)/../Extensions/FPKGalleryFade.embeddedframework\"",
 					"\"$(SRCROOT)/../Extensions/FPKGallerySlide.embeddedframework\"",
 					"\"$(SRCROOT)/../Extensions/FPKGalleryTap.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKMap.embeddedframework\"",
 					"\"$(SRCROOT)/../Extensions/FPKMessage.embeddedframework\"",
-					"\"$(SRCROOT)/../Extensions/FPKWebPopup.embeddedframework\"",
-					"\"$(SRCROOT)/../Extensions/Common.embeddedframework\"",
 					"\"$(SRCROOT)/../Extensions/FPKPayPal.embeddedframework\"",
-					"\"$(SRCROOT)/../Extensions/FPKConfig.embeddedframework\"",
-					"\"$(SRCROOT)/../../FastPdfKit/FastPdfKitFramework/FastPdfKit.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKShared.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKWebPopup.embeddedframework\"",
+					"\"$(SRCROOT)/../Extensions/FPKYouTube.embeddedframework\"",
+					"\"$(SRCROOT)/../FastPdfKit.embeddedframework\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -932,7 +901,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Classes/Extended/Extensions/Common.embeddedframework/Resources\"",
 					"\"$(SRCROOT)/../ThirdParties\"",
 					"\"$(SRCROOT)/../Extensions/Common.embeddedframework/Resources\"",
 				);
