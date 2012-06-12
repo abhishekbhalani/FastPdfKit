@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010580FD1587E11100835E9A /* FastPdfKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010580F91587E11100835E9A /* FastPdfKit.framework */; };
+		010580FE1587E11100835E9A /* FPKReaderBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 010580FB1587E11100835E9A /* FPKReaderBundle.bundle */; };
+		010580FF1587E11100835E9A /* Snippets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 010580FC1587E11100835E9A /* Snippets.txt */; };
 		013FC2601585FEA3003A0F04 /* FPKMainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013FC2611585FEA3003A0F04 /* FPKMainViewController_iPad.xib */; };
 		013FC2621585FEA8003A0F04 /* FPKMainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013FC2631585FEA8003A0F04 /* FPKMainViewController_iPhone.xib */; };
 		013FC2661585FF53003A0F04 /* FPKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013FC2651585FF53003A0F04 /* FPKAppDelegate.m */; };
-		013FC40515867B21003A0F04 /* FastPdfKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC40015867B21003A0F04 /* FastPdfKit.framework */; };
-		013FC40615867B21003A0F04 /* FPKReaderBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 013FC40215867B21003A0F04 /* FPKReaderBundle.bundle */; };
-		013FC40815867B21003A0F04 /* Snippets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 013FC40415867B21003A0F04 /* Snippets.txt */; };
 		013FC46A15867C30003A0F04 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC44A15867C30003A0F04 /* Common.framework */; };
 		013FC46B15867C30003A0F04 /* libPayPalMPL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC44C15867C30003A0F04 /* libPayPalMPL.a */; };
 		013FC46C15867C30003A0F04 /* FPKConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FC44E15867C30003A0F04 /* FPKConfig.framework */; };
@@ -62,6 +62,9 @@
 
 /* Begin PBXFileReference section */
 		0102A1D11547009B00F7A9AF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		010580F91587E11100835E9A /* FastPdfKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FastPdfKit.framework; sourceTree = "<group>"; };
+		010580FB1587E11100835E9A /* FPKReaderBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FPKReaderBundle.bundle; sourceTree = "<group>"; };
+		010580FC1587E11100835E9A /* Snippets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snippets.txt; sourceTree = "<group>"; };
 		010D14C513CAFF1B00FD6F08 /* FastPDFKitKiosk-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FastPDFKitKiosk-Prefix.pch"; sourceTree = "<group>"; };
 		010D14C613CAFF1B00FD6F08 /* FastPDFKitReader-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FastPDFKitReader-Prefix.pch"; sourceTree = "<group>"; };
 		0123602713CC908E00861EB7 /* KioskBundle-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KioskBundle-Prefix.pch"; sourceTree = "<group>"; };
@@ -74,9 +77,6 @@
 		013FC2631585FEA8003A0F04 /* FPKMainViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FPKMainViewController_iPhone.xib; sourceTree = "<group>"; };
 		013FC2641585FF53003A0F04 /* FPKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPKAppDelegate.h; sourceTree = "<group>"; };
 		013FC2651585FF53003A0F04 /* FPKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPKAppDelegate.m; sourceTree = "<group>"; };
-		013FC40015867B21003A0F04 /* FastPdfKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FastPdfKit.framework; sourceTree = "<group>"; };
-		013FC40215867B21003A0F04 /* FPKReaderBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FPKReaderBundle.bundle; sourceTree = "<group>"; };
-		013FC40415867B21003A0F04 /* Snippets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snippets.txt; sourceTree = "<group>"; };
 		013FC44A15867C30003A0F04 /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Common.framework; sourceTree = "<group>"; };
 		013FC44C15867C30003A0F04 /* libPayPalMPL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMPL.a; sourceTree = "<group>"; };
 		013FC44E15867C30003A0F04 /* FPKConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPKConfig.framework; sourceTree = "<group>"; };
@@ -224,7 +224,6 @@
 				954B74B014B47F0D00503F90 /* Foundation.framework in Frameworks */,
 				954B74B114B47F0D00503F90 /* CoreGraphics.framework in Frameworks */,
 				0152EC5F1583EF40005FFCEB /* libziparchive.a in Frameworks */,
-				013FC40515867B21003A0F04 /* FastPdfKit.framework in Frameworks */,
 				013FC46A15867C30003A0F04 /* Common.framework in Frameworks */,
 				013FC46B15867C30003A0F04 /* libPayPalMPL.a in Frameworks */,
 				013FC46C15867C30003A0F04 /* FPKConfig.framework in Frameworks */,
@@ -237,27 +236,28 @@
 				013FC47415867C30003A0F04 /* FPKShared.framework in Frameworks */,
 				013FC47515867C30003A0F04 /* FPKWebPopup.framework in Frameworks */,
 				013FC47615867C30003A0F04 /* FPKYouTube.framework in Frameworks */,
+				010580FD1587E11100835E9A /* FastPdfKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		013FC3FF15867B21003A0F04 /* FastPdfKit.embeddedframework */ = {
+		010580F81587E11100835E9A /* FastPdfKit.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				013FC40015867B21003A0F04 /* FastPdfKit.framework */,
-				013FC40115867B21003A0F04 /* Resources */,
+				010580F91587E11100835E9A /* FastPdfKit.framework */,
+				010580FA1587E11100835E9A /* Resources */,
 			);
 			name = FastPdfKit.embeddedframework;
 			path = ../FastPdfKit.embeddedframework;
 			sourceTree = "<group>";
 		};
-		013FC40115867B21003A0F04 /* Resources */ = {
+		010580FA1587E11100835E9A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				013FC40215867B21003A0F04 /* FPKReaderBundle.bundle */,
-				013FC40415867B21003A0F04 /* Snippets.txt */,
+				010580FB1587E11100835E9A /* FPKReaderBundle.bundle */,
+				010580FC1587E11100835E9A /* Snippets.txt */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -608,7 +608,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				013FC3FF15867B21003A0F04 /* FastPdfKit.embeddedframework */,
+				010580F81587E11100835E9A /* FastPdfKit.embeddedframework */,
 				951E4E4013D71E8400C9FC70 /* libz.dylib */,
 				954B751E14B4810000503F90 /* libxml2.dylib */,
 				954B752014B4811500503F90 /* Security.framework */,
@@ -743,9 +743,9 @@
 				95EF544714B48EDD00910B3D /* Icon.png in Resources */,
 				95EF544814B48EDD00910B3D /* Icon72.png in Resources */,
 				95EF544914B48EDD00910B3D /* Icon114.png in Resources */,
-				013FC40615867B21003A0F04 /* FPKReaderBundle.bundle in Resources */,
-				013FC40815867B21003A0F04 /* Snippets.txt in Resources */,
 				013FC47215867C30003A0F04 /* fpkmessage-info.png in Resources */,
+				010580FE1587E11100835E9A /* FPKReaderBundle.bundle in Resources */,
+				010580FF1587E11100835E9A /* Snippets.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,14 +7,14 @@
 //
 
 
-#import <FastPdfKit/BookmarkViewController.h>
-#import <FastPdfKit/OutlineViewController.h>
-#import <FastPdfKit/MFDocumentManager.h>
-#import <FastPdfKit/SearchViewController.h>
-#import <FastPdfKit/TextDisplayViewController.h>
-#import <FastPdfKit/SearchManager.h>
-#import <FastPdfKit/MiniSearchView.h>
-#import <FastPdfKit/mfprofile.h>
+#import "BookmarkViewController.h"
+#import "OutlineViewController.h"
+#import "MFDocumentManager.h"
+#import "SearchViewController.h"
+#import "TextDisplayViewController.h"
+#import "SearchManager.h"
+#import "MiniSearchView.h"
+#import "mfprofile.h"
 
 #import "MenuViewController.h"
 #import "DocumentViewController.h"

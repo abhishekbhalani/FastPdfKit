@@ -9,8 +9,7 @@
 #import "FastPDFKit_KioskAppDelegate.h"
 #import "MenuViewController_Kiosk.h"
 #import "ZipArchive.h"
-
-
+#import "Stuff.h"
 
 @implementation FastPDFKit_KioskAppDelegate
 @synthesize window,navigationController;

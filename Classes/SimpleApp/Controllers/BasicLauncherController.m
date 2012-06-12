@@ -7,7 +7,7 @@
 //
 
 #import "BasicLauncherController.h"
-#import <FastPdfKit/MFDocumentManager.h>
+#import "MFDocumentManager.h"
 #import "DocumentViewController.h"
 
 #define DOC_PLAIN @"gitmanual"

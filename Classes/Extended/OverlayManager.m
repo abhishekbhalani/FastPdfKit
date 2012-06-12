@@ -25,11 +25,10 @@
 	self = [super init];
 	if (self != nil)
 	{
-		/**
-            Add Extensions to the array, or use the initWithExtension: method         
-         */
-                
-		[self setExtensions:[[NSArray alloc] initWithObjects:@"FPKPayPal", @"FPKGallerySlide", @"FPKWebPopup", @"FPKMessage", @"FPKGalleryTap", @"FPKMap", @"FPKYouTube", @"FPKGalleryFade", nil]];
+		NSArray * exts = [[NSArray alloc] initWithObjects:@"FPKPayPal", @"FPKGallerySlide", @"FPKWebPopup", @"FPKMessage", @"FPKGalleryTap", @"FPKMap", @"FPKYouTube", @"FPKGalleryFade", nil];
+		[self setExtensions:exts];
+        [exts release];
+        
 	}
 	return self;
 }

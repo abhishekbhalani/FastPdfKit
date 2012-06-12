@@ -10,6 +10,7 @@
 #import "MenuViewController_Kiosk.h"
 #import "ZipArchive.h"
 #import "FastPDFKit_KioskAppDelegate.h"
+#import "Stuff.h"
 
 #define TITLE_DOWNLOAD @"Download"
 #define TITLE_OPEN @"Open"

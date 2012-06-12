@@ -288,4 +288,3 @@ static inline CGRect rectForPosition(NSInteger position, CGSize pageSize) {
 	return CGRectMake(position * pageSize.width, 0, pageSize.width, pageSize.height);
 	
 }
-

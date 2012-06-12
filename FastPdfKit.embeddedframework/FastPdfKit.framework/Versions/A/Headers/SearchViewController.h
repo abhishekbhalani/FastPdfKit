@@ -12,7 +12,6 @@
 #import "SearchViewControllerDelegate.h"
 
 @class MFDocumentManager;
-@class DocumentViewController;
 @class SearchManager;
 
 @interface SearchViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate> {

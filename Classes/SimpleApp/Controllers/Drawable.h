@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <FastPdfKit/MFOverlayDrawable.h>
+#import "MFOverlayDrawable.h"
 
 @interface Drawable : NSObject <MFOverlayDrawable>
 

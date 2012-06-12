@@ -6,8 +6,8 @@
 //  Copyright 2010 MobFarm S.r.l. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "MenuViewController_Kiosk.h"
-#import <FastPdfKit/ReaderViewController.h>
 
 @class MFDocumentManager;
 
