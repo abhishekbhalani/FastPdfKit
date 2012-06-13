@@ -20,8 +20,8 @@
 
 @implementation OverlayManager
 
-- (FPKOverlayManager *)init
-{
+- (id)init {
+    
 	self = [super init];
 	if (self != nil)
 	{

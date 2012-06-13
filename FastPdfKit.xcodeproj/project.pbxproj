@@ -152,6 +152,7 @@
 		018D334D1547049700EB3DCD /* libFastPdfKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 018D334C1547049700EB3DCD /* libFastPdfKit.a */; };
 		018D334F1547049700EB3DCD /* libFastPdfKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 018D334C1547049700EB3DCD /* libFastPdfKit.a */; };
 		018D33501547049700EB3DCD /* libFastPdfKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 018D334C1547049700EB3DCD /* libFastPdfKit.a */; };
+		01A404EC1588C7390098E41C /* FastPdfKitFramework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 951AE31514029A6F0025DA52 /* FastPdfKitFramework.xcconfig */; };
 		01AD4F1C14CF0F8600DF0AB3 /* MFPDFOutlineRemoteEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AD4F1B14CF0F8600DF0AB3 /* MFPDFOutlineRemoteEntry.h */; };
 		01AD4F1D14CF0F8600DF0AB3 /* MFPDFOutlineRemoteEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AD4F1B14CF0F8600DF0AB3 /* MFPDFOutlineRemoteEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01B3DAD9146D920F00F8C740 /* Stuff.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B3DAD8146D920F00F8C740 /* Stuff.h */; };
@@ -521,8 +522,8 @@
 		01BC07BF13C755610077CE63 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		01BC07C013C755610077CE63 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		01BC07C113C755610077CE63 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
-		01BC080113C75B310077CE63 /* FastPDFKit_KioskAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastPDFKit_KioskAppDelegate.h; sourceTree = "<group>"; };
-		01BC080213C75B310077CE63 /* FastPDFKit_KioskAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastPDFKit_KioskAppDelegate.m; sourceTree = "<group>"; };
+		01BC080113C75B310077CE63 /* FastPDFKit_KioskAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FastPDFKit_KioskAppDelegate.h; path = ../FastPDFKit_KioskAppDelegate.h; sourceTree = "<group>"; };
+		01BC080213C75B310077CE63 /* FastPDFKit_KioskAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FastPDFKit_KioskAppDelegate.m; path = ../FastPDFKit_KioskAppDelegate.m; sourceTree = "<group>"; };
 		01BC080313C75B310077CE63 /* Kiosk_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Kiosk_ipad.xib; sourceTree = "<group>"; };
 		01BC080413C75B310077CE63 /* Kiosk_phone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Kiosk_phone.xib; sourceTree = "<group>"; };
 		01BC080513C75B310077CE63 /* MainWindow_Kiosk.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_Kiosk.xib; sourceTree = "<group>"; };
@@ -869,6 +870,8 @@
 		0123605913CC93F600861EB7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				01BC080113C75B310077CE63 /* FastPDFKit_KioskAppDelegate.h */,
+				01BC080213C75B310077CE63 /* FastPDFKit_KioskAppDelegate.m */,
 				01BC080313C75B310077CE63 /* Kiosk_ipad.xib */,
 				01BC080413C75B310077CE63 /* Kiosk_phone.xib */,
 				01BC080513C75B310077CE63 /* MainWindow_Kiosk.xib */,
@@ -1051,8 +1054,6 @@
 		01BC080013C75B310077CE63 /* KioskApp */ = {
 			isa = PBXGroup;
 			children = (
-				01BC080113C75B310077CE63 /* FastPDFKit_KioskAppDelegate.h */,
-				01BC080213C75B310077CE63 /* FastPDFKit_KioskAppDelegate.m */,
 				01598E3D13CAEDD2007344EE /* Images */,
 				0123605913CC93F600861EB7 /* Controllers */,
 			);
@@ -1943,6 +1944,7 @@
 			files = (
 				958A81E81402804700837C82 /* FPKReaderBundle.bundle in Resources */,
 				958CBAB5141E66060094D4C1 /* Snippets.txt in Resources */,
+				01A404EC1588C7390098E41C /* FastPdfKitFramework.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
